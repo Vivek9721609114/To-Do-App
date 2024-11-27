@@ -1,0 +1,44 @@
+li{
+    color: white;
+    padding: 10px;
+    background-color: black;
+    text-align: left;
+    /* position: relative; */
+    font-size: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+li span{
+    /* position: absolute; */
+    right: 20px;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    
+    gap: 25px;
+}
+.btn button{
+    background: blue;
+    color: white;
+    width: 40px;
+}
+
+.completetodo{
+    text-decoration: line-through;
+    color: red !important;
+    background-color: yellow !important;
+    display: flex;
+}
+li span:last-child{
+    position: relative;
+    right: 100px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    
+}

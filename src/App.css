@@ -1,0 +1,61 @@
+/* .app{ 
+max-width: 100vh;
+  margin: 0 auto;
+}*/
+h1{
+  margin: 50px 0px;
+
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+}
+form{
+  max-width: 1170px;
+  margin: auto;
+
+  display: flex;
+  gap: 20px;
+
+}
+form input{
+  flex-basis: 80%;
+  height: 40px;
+}
+form button{
+  flex-basis: 20%;
+  background-color: lightblue;
+  
+}
+form button:hover{
+  background-color: orangered;
+  border: none;
+  color: white;
+}
+.outerdiv{
+  width: 1170px;
+  margin: auto;
+}
+.outerdiv ul{
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+  list-style: none;
+}
+.outerdiv ul li{
+  color: white;
+  padding: 10px;
+  background-color: black;
+  text-align: left;
+  position: relative;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.outerdiv ul li span{
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+
+}
